@@ -8,7 +8,9 @@ function iTake5Arguments(prim0, prim1, prim2, prim3, prim4) {
   SomejslibJs.iTake5Arguments(prim0, prim1, prim2, prim3, prim4);
 }
 
-var iTake5ArgumentsUncurried = SomejslibJs.iTake5Arguments;
+function iTake5ArgumentsUncurried(prim0, prim1, prim2, prim3, prim4) {
+  SomejslibJs.iTake5Arguments(prim0, prim1, prim2, prim3, prim4);
+}
 
 function print4(a, b, c, d) {
   console.log(a, b, c, d);
