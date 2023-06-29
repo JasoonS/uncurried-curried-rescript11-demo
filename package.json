@@ -4,7 +4,8 @@
   "scripts": {
     "clean": "rescript clean",
     "build": "rescript build",
-    "watch": "rescript build -w"
+    "watch": "rescript build -w",
+    "format": "rescript format -all"
   },
   "keywords": [
     "ReScript"
